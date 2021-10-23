@@ -36,6 +36,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   provider: ^6.0.0
   syncfusion_flutter_gauges: ^19.3.46
+  udp: ^3.0.3
 
 dev_dependencies:
   flutter_test:
@@ -76,9 +77,12 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-     - family: Artegra
-       fonts:
-         - asset: assets/fonts/ArtegraSans.ttf
+    - family: NeonDigital
+      fonts:
+        - asset: assets/fonts/screaming_neon.ttf
+    - family: Artegra
+      fonts:
+        - asset: assets/fonts/ArtegraSans.ttf
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
